@@ -6,7 +6,7 @@ var groups = {
 'Sides':['Roasted Brussel Sprouts','Gomen Wat','Crispy Roasted Potatoes','Cranberry Salad','Atkilt','Roasted Broccoli with Parmesan'],
 'Soups':['French Onion Soup','Apricot Lentil Soup'],
 'Salads':['Carrot Raisin Salad','Thai Salad','Roasted Beet Goat Cheese Salad','Sesame Spinach Salad','Chickpea and Avocado Salad'],
-'Sauces':['Honey Mustard Sauce','Sweet BBQ Sauce 2','Sweet BBQ Sauce','Mustardy BBQ Sauce','Thai Peanut Sauce','Sweet n Sour Sauce'],
+'Sauces':['Honey Mustard Sauce','Teriyaki Sauce','Sweet BBQ Sauce 2','Sweet BBQ Sauce','Mustardy BBQ Sauce','Thai Peanut Sauce','Sweet n Sour Sauce'],
 'Spices':['Garam Masala','Thai Curry Paste','Taco Seasoning','Berbere (Ethiopian spice mix)','Niter Kibbeh'],
 'Drinks':['Mango Lassi'],
 'Preserves':['Tomato Jam'],

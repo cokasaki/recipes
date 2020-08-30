@@ -5,12 +5,10 @@
     <meta name="author" content="Connie Okasaki">
     <meta name="description" content="The personal recipe page of the Ebling/Okasaki family">
     <title>(Not Just) Simple Cooking</title>
-    <script src="new-recipe.js" defer></script>
   </head>
   <body>
     <h1>(Not Just) Simple Cooking</h1>
     <p>Originally a collection of simple recipes suitable for a dorm kitchen</p>
-    <button>Add New Recipe</button>
     <p><a href="search-by-tag.html">Search By Tag</a></p>
     
     <h2>Table of Contents</h2>
