@@ -40,7 +40,7 @@ def read_first_line(filename):
 
 recipe_names = [read_first_line("recipes_txt/"+n) for n in os.listdir("recipes_txt")\
                 if n.endswith(".txt")]
-recipe_str = "        <li id='{name}'><a href='{name}.html' >{name}</a></li>"
+recipe_str = "        <li id='{name}'><a href='recipes/{name}.html' >{name}</a></li>"
 recipes = "\n".join([recipe_str.format(name=n) for n in recipe_names])
 
 search_html = search_template.format(cats=cat_buttons,diets=diet_buttons, \
