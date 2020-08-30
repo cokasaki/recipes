@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Connie Okasaki">
+    <meta name="description" content="Search for recipes by their tagged properties">
+    <title>Search By Tag</title>
+    <script src="tag-buttons.js" defer></script>
+  </head>
+  <body>
+    <h1>Search By Tag</h1>
+    <a href="index.html">Back to Top</a>
+    <h2>Categories</h2>
+{cats}
+    <h2>Dietary Restrictions</h2>
+{diets}
+    <h2>Cuisines</h2>
+{cuisines}
+    <h2>Specialty</h2>
+{misc}
+    <h2>All Matching Recipes</h2>
+    <p id="selected-tags"></p>
+    <ul id="matching-recipes">
+{recipes}
+    </ul>
+  </body>
+</html>

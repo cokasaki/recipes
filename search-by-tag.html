@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Connie Okasaki">
+    <meta name="description" content="Search for recipes by their tagged properties">
+    <title>Search By Tag</title>
+    <script src="tag-buttons.js" defer></script>
+  </head>
+  <body>
+    <h1>Search By Tag</h1>
+    <a href="index.html">Back to Top</a>
+    <h2>Categories</h2>
+        <button id='Breakfast'>Breakfast</button>
+        <button id='Dinner'>Dinner</button>
+        <button id='Dessert'>Dessert</button>
+        <button id='Sides'>Sides</button>
+        <button id='Soups'>Soups</button>
+        <button id='Salads'>Salads</button>
+        <button id='Sauces'>Sauces</button>
+        <button id='Spices'>Spices</button>
+        <button id='Drinks'>Drinks</button>
+        <button id='Preserves'>Preserves</button>
+    <h2>Dietary Restrictions</h2>
+        <button id='Vegetarian'>Vegetarian</button>
+        <button id='Vegan'>Vegan</button>
+        <button id='Gluten-Free'>Gluten-Free</button>
+        <button id='Nut-Free'>Nut-Free</button>
+        <button id='Peanut-Free'>Peanut-Free</button>
+        <button id='Sesame-Free'>Sesame-Free</button>
+    <h2>Cuisines</h2>
+        <button id='Indian'>Indian</button>
+        <button id='Ethiopian'>Ethiopian</button>
+        <button id='Thai'>Thai</button>
+        <button id='Korean'>Korean</button>
+    <h2>Specialty</h2>
+        <button id='Camping'>Camping</button>
+        <button id='Family Recipes'>Family Recipes</button>
+        <button id='Thanksgiving'>Thanksgiving</button>
+    <h2>All Matching Recipes</h2>
+    <p id="selected-tags"></p>
+    <ul id="matching-recipes">
+        <li id='Cinnamon Coffee Cake Muffins'><a href='Cinnamon Coffee Cake Muffins.html' >Cinnamon Coffee Cake Muffins</a></li>
+        <li id='Garam Masala'><a href='Garam Masala.html' >Garam Masala</a></li>
+        <li id='French Onion Soup'><a href='French Onion Soup.html' >French Onion Soup</a></li>
+        <li id='Honey Mustard Sauce'><a href='Honey Mustard Sauce.html' >Honey Mustard Sauce</a></li>
+        <li id='Roasted Brussel Sprouts'><a href='Roasted Brussel Sprouts.html' >Roasted Brussel Sprouts</a></li>
+        <li id='Granny’s Spiced Nuts'><a href='Granny’s Spiced Nuts.html' >Granny’s Spiced Nuts</a></li>
+        <li id='Black Bean Butternut Squash Enchilada Casserole'><a href='Black Bean Butternut Squash Enchilada Casserole.html' >Black Bean Butternut Squash Enchilada Casserole</a></li>
+        <li id='Macaroni and Cheese'><a href='Macaroni and Cheese.html' >Macaroni and Cheese</a></li>
+        <li id='Carrot Raisin Salad'><a href='Carrot Raisin Salad.html' >Carrot Raisin Salad</a></li>
+        <li id='Tomato Jam'><a href='Tomato Jam.html' >Tomato Jam</a></li>
+        <li id='Apricot Lentil Soup'><a href='Apricot Lentil Soup.html' >Apricot Lentil Soup</a></li>
+        <li id='Sweet BBQ Sauce 2'><a href='Sweet BBQ Sauce 2.html' >Sweet BBQ Sauce 2</a></li>
+        <li id='Gomen Wat'><a href='Gomen Wat.html' >Gomen Wat</a></li>
+        <li id='Roasted Japanese Sweet Potato'><a href='Roasted Japanese Sweet Potato.html' >Roasted Japanese Sweet Potato</a></li>
+        <li id='Kheer'><a href='Kheer.html' >Kheer</a></li>
+        <li id='Crispy Roasted Potatoes'><a href='Crispy Roasted Potatoes.html' >Crispy Roasted Potatoes</a></li>
+        <li id='Sweet BBQ Sauce'><a href='Sweet BBQ Sauce.html' >Sweet BBQ Sauce</a></li>
+        <li id='Sweet and Sour Chicken Wings'><a href='Sweet and Sour Chicken Wings.html' >Sweet and Sour Chicken Wings</a></li>
+        <li id='Thai Salad'><a href='Thai Salad.html' >Thai Salad</a></li>
+        <li id='Cranberry Salad'><a href='Cranberry Salad.html' >Cranberry Salad</a></li>
+        <li id='Ribbon Salad'><a href='Ribbon Salad.html' >Ribbon Salad</a></li>
+        <li id='Fried Rice'><a href='Fried Rice.html' >Fried Rice</a></li>
+        <li id='Thai Curry Paste'><a href='Thai Curry Paste.html' >Thai Curry Paste</a></li>
+        <li id='Misir Wat'><a href='Misir Wat.html' >Misir Wat</a></li>
+        <li id='Navratan Korma'><a href='Navratan Korma.html' >Navratan Korma</a></li>
+        <li id='Roasted Beet Goat Cheese Salad'><a href='Roasted Beet Goat Cheese Salad.html' >Roasted Beet Goat Cheese Salad</a></li>
+        <li id='Bulgogi'><a href='Bulgogi.html' >Bulgogi</a></li>
+        <li id='Thai Sweet Potato Curry'><a href='Thai Sweet Potato Curry.html' >Thai Sweet Potato Curry</a></li>
+        <li id='Mango Lassi'><a href='Mango Lassi.html' >Mango Lassi</a></li>
+        <li id='Mustardy BBQ Sauce'><a href='Mustardy BBQ Sauce.html' >Mustardy BBQ Sauce</a></li>
+        <li id='Sesame Spinach Salad'><a href='Sesame Spinach Salad.html' >Sesame Spinach Salad</a></li>
+        <li id='Chickpea and Avocado Salad'><a href='Chickpea and Avocado Salad.html' >Chickpea and Avocado Salad</a></li>
+        <li id='Penne with Squash and Goat Cheese'><a href='Penne with Squash and Goat Cheese.html' >Penne with Squash and Goat Cheese</a></li>
+        <li id='Taco Seasoning'><a href='Taco Seasoning.html' >Taco Seasoning</a></li>
+        <li id='Thai Green Curry'><a href='Thai Green Curry.html' >Thai Green Curry</a></li>
+        <li id='Thai Peanut Sauce'><a href='Thai Peanut Sauce.html' >Thai Peanut Sauce</a></li>
+        <li id='Atkilt'><a href='Atkilt.html' >Atkilt</a></li>
+        <li id='Roasted Broccoli with Parmesan'><a href='Roasted Broccoli with Parmesan.html' >Roasted Broccoli with Parmesan</a></li>
+        <li id='Berbere (Ethiopian spice mix)'><a href='Berbere (Ethiopian spice mix).html' >Berbere (Ethiopian spice mix)</a></li>
+        <li id='Sweet n Sour Sauce'><a href='Sweet n Sour Sauce.html' >Sweet n Sour Sauce</a></li>
+        <li id='Mango Sticky Rice'><a href='Mango Sticky Rice.html' >Mango Sticky Rice</a></li>
+        <li id='Niter Kibbeh'><a href='Niter Kibbeh.html' >Niter Kibbeh</a></li>
+    </ul>
+  </body>
+</html>

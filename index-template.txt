@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Connie Okasaki">
+    <meta name="description" content="The personal recipe page of the Ebling/Okasaki family">
+    <title>(Not Just) Simple Cooking</title>
+    <script src="new-recipe.js" defer></script>
+  </head>
+  <body>
+    <h1>(Not Just) Simple Cooking</h1>
+    <p>Originally a collection of simple recipes suitable for a dorm kitchen</p>
+    <button>Add New Recipe</button>
+    <p><a href="search-by-tag.html">Search By Tag</a></p>
+    
+    <h2>Table of Contents</h2>
+    <h3>Categories</h3>
+    <ul>
+    {cats}
+    </ul>
+    <h3>Dietary Restrictions</h3>
+    <ul>
+    {diets}
+    </ul>
+    <h3>Cuisines</h3>
+    <ul>
+    {cuisines}
+    </ul>
+    <h3>Specialty</h3>
+    <ul>
+    {misc}
+    </ul>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+Breakfast
+Dinner
+Dessert
+Sides
+Soups
+Salads
+Sauces
+Spices
+Drinks
+Preserves

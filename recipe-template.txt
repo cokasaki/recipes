@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Connie Okasaki">
+    <meta name="description" content="{desc}">
+    <title>{title}</title>
+  </head>
+  <body>
+    <h1>{title}</h1>
+    <p><a href="../index.html">Back to Top</a></p>
+    <h3>Ingredients</h3>
+    <ul>
+    {ingr}
+    </ul>
+    <h3>Instructions</h3>
+    <ol>
+    {inst}
+    </ol>
+  </body>
+</html>
