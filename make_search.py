@@ -79,7 +79,8 @@ for filename in os.listdir("recipes_txt"):
 
         groups = read_til_empty_line(f)
         for group in groups:
-            groups_dict[group] += [name]
+            if group in groups_dict.keys():
+                groups_dict[group] += [name]
 
 js_dict_str = "'{group}':[{names}]"
 name_strs = {g:",".join(["'"+n+"'" for n in groups_dict[g]]) for g in groups_dict.keys()}
