@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recipes | Colin Okasaki</title>
+    <link>/recipes/</link>
+      <atom:link href="/recipes/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recipes</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>/img/icon.png</url>
+      <title>Recipes</title>
+      <link>/recipes/</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>/recipes/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/recipes/readme/</guid>
+      <description>&lt;h1 id=&#34;recipes&#34;&gt;recipes&lt;/h1&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

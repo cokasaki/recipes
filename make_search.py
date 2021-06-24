@@ -30,7 +30,7 @@ button_str = "        <button id='{name}'>{name}</button>"
 cat_buttons  = "\n".join([button_str.format(name=cat) for cat in cats])
 diet_buttons = "\n".join([button_str.format(name=diet) for diet in diets])
 cuis_buttons = "\n".join([button_str.format(name=cuisine) for cuisine in cuisines])
-misc_buttons = "\n".join([button_str.format(name=misc) for misc in misc])
+misc_buttons = "\n".join([button_str.format(name=m) for m in misc])
 
 def read_first_line(filename):
     f = open(filename,"r")
@@ -40,7 +40,7 @@ def read_first_line(filename):
 
 recipe_names = [read_first_line("recipes_txt/"+n) for n in os.listdir("recipes_txt")\
                 if n.endswith(".txt")]
-recipe_str = "        <li id='{name}'><a href='recipes/{name}.html' >{name}</a></li>"
+recipe_str = "        <li id='{name}'><a href='{name}.html' >{name}</a></li>"
 recipes = "\n".join([recipe_str.format(name=n) for n in recipe_names])
 
 search_html = search_template.format(cats=cat_buttons,diets=diet_buttons, \
@@ -79,8 +79,7 @@ for filename in os.listdir("recipes_txt"):
 
         groups = read_til_empty_line(f)
         for group in groups:
-            if group in groups_dict.keys():
-                groups_dict[group] += [name]
+            groups_dict[group] += [name]
 
 js_dict_str = "'{group}':[{names}]"
 name_strs = {g:",".join(["'"+n+"'" for n in groups_dict[g]]) for g in groups_dict.keys()}

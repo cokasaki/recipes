@@ -2,6 +2,7 @@ Mango Lassi
 
 A sweet Indian yogurt drink
 
+Nick-Safe
 Drinks
 Indian
 Gluten-Free
@@ -9,7 +10,6 @@ Vegetarian
 Nut-Free
 Peanut-Free
 Sesame-Free
-James
 
 1 cup plain yogurt
 ¼ cup water
